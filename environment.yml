@@ -1,0 +1,16 @@
+name: interviewer_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - tavily-python
+    - langchain_openai
+    - langchain_core
+    - langchain_community
+    - langchain_anthropic
+    - langchain-ollama
