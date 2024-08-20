@@ -6,7 +6,7 @@
   ],
   "graphs": {
     "agent": "./agent.py:graph",
-    "interviewer": "./interviewer.py:graph"
+    "interview-graph": "./interview_graph.py:graph"
   },
   "env": ".env"
 }
